@@ -52,13 +52,13 @@
 
       <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.5.3</version>
+        <version>3.5.4</version>
       </plugin>
 
       <plugin>
         <groupId>org.hibernate.orm.tooling</groupId>
         <artifactId>hibernate-enhance-maven-plugin</artifactId>
-        <version>6.6.28.Final</version>
+        <version>6.6.29.Final</version>
         <executions>
           <execution>
             <configuration>
