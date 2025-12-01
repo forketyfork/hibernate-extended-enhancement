@@ -58,7 +58,7 @@
       <plugin>
         <groupId>org.hibernate.orm.tooling</groupId>
         <artifactId>hibernate-enhance-maven-plugin</artifactId>
-        <version>6.6.37.Final</version>
+        <version>6.6.38.Final</version>
         <executions>
           <execution>
             <configuration>
