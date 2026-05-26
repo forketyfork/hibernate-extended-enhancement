@@ -18,7 +18,7 @@
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-core</artifactId>
-      <version>5.6.15.Final</version>
+      <version>6.6.51.Final</version>
     </dependency>
 
     <dependency>
@@ -30,7 +30,7 @@
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
-      <version>6.0.3</version>
+      <version>6.1.0</version>
       <scope>test</scope>
     </dependency>
 
@@ -58,7 +58,7 @@
       <plugin>
         <groupId>org.hibernate.orm.tooling</groupId>
         <artifactId>hibernate-enhance-maven-plugin</artifactId>
-        <version>6.6.50.Final</version>
+        <version>6.6.51.Final</version>
         <executions>
           <execution>
             <configuration>
