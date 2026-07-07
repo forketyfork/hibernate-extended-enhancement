@@ -6,6 +6,13 @@ updates:
       interval: "daily"
     cooldown:
       default-days: 7
+    ignore:
+      # Extended bytecode enhancement is deprecated in Hibernate 7.x, so this
+      # project stays on the 6.x line. Block anything from 7.0 onwards.
+      - dependency-name: "org.hibernate:hibernate-core"
+        versions: [">=7.0.0"]
+      - dependency-name: "org.hibernate.orm.tooling:hibernate-enhance-maven-plugin"
+        versions: [">=7.0.0"]
     groups:
       all-dependencies:
         patterns:
