@@ -17,9 +17,9 @@ This is a Maven-based Java project using Java 21.
 - **Clean**: `mvn clean`
 
 ### Dependencies
-- Hibernate Core 6.6.51.Final
-- H2 Database 2.4.240 (for testing)
-- JUnit Jupiter 6.1.0 (for testing)
+- Hibernate Core 6 (6.6 line)
+- H2 Database (for testing)
+- JUnit Jupiter (for testing)
 
 The project is pinned to the Hibernate 6.6 line because extended bytecode
 enhancement is deprecated in Hibernate 7.x. See `README.md` for the upstream
@@ -46,7 +46,7 @@ The project demonstrates Hibernate's extended enhancement feature through:
 The Maven build uses `hibernate-enhance-maven-plugin` with:
 - `enableDirtyTracking=true`: Tracks which fields have been modified
 - `enableExtendedEnhancement=true`: Detects field changes even when setters aren't used
-- Plugin version matches `hibernate-core` (6.6.51.Final)
+- Plugin version matches `hibernate-core` (6.6 line)
 
 ### Test Database Setup
 
